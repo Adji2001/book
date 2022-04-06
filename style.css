@@ -20,6 +20,15 @@
   outline:1px solid black;
 }
 
+.alert {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .alert {
+    display: block;
+  }
+}
 .page {
   width:50%;
   height:100%;
@@ -231,7 +240,7 @@ img{
   100% { background-position:.5vh 0%; }
 }
 #page3 .front:after {
-  content:'M';
+  content:'I';
   width:100%;
   height:100%;
   position:absolute;
